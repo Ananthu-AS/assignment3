@@ -1,0 +1,123 @@
+/* Author : Ananthu A S */
+* {
+    margin: 0;
+}
+.main-container {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-shrink: 0;
+    background-image: linear-gradient(to bottom, #fff, #e8f9fd);
+}
+.container {
+    border-left: solid #5bc0f8 2px;
+    border-bottom: solid #5bc0f8 2px;
+}
+img {
+    width: 100%;
+}
+.para1 {
+    line-height: 1.5;
+    padding: 0 8px;
+}
+.content1 {
+    width: 80%;
+}
+.name {
+    text-align: start;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.navigation {
+    padding: 35px;
+    background-color: #f9f9f9;
+}
+footer {
+    padding: 27px;
+    background-color: #f9f9f9;
+    font-size: 12px;
+}
+.related {
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    border: solid 1px;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+    background-image: linear-gradient(to bottom, #fff, #e8f9fd);
+}
+.navigation a {
+    display: block;
+    text-decoration: none;
+    font-size: small;
+}
+a {
+    text-decoration: none;
+}
+.related h2 {
+    margin: 0;
+    font-size: medium;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+.details p {
+    padding: 4px;
+}
+th {
+    text-align: start;
+    font-size: 14px;
+    width: 85px;
+}
+td {
+    text-align: start;
+    font-size: 14px;
+    padding: 4px;
+}
+.content {
+    display: flex;
+}
+.toplink {
+    text-align: end;
+    font-size: small;
+    word-spacing: 10px;
+}
+.sp1 {
+    font-size: small;
+}
+.searchbar {
+    display: inline;
+}
+.toplink2 {
+    position: relative;
+    background-image: linear-gradient(to bottom, #fff, #deecff);
+}
+.toplink-right {
+    display: inline;
+    position: absolute;
+    right: 0;
+}
+.table-of-content {
+    border: solid 1px;
+    width: fit-content;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.table-of-content li {
+    font-size: 13px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.toplink2 a {
+    border: solid 1px #deecff;
+}
+.footer-link {
+    display: flex;
+    gap: 20px;
+}
+.link {
+    margin: 10px;
+}
